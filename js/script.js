@@ -52,7 +52,8 @@ var swiper = new Swiper(".home-slider", {
     clickable: true,
   },
   loop:true,
-});
+}
+);
 
 var swiper = new Swiper(".review-slider", {
   spaceBetween: 20,

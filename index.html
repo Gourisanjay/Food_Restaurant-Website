@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,210 +16,324 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
-    
-<!-- header section starts      -->
 
-<header>
-    <a href="#home" class="logo"><i class="fas fa-utensils"></i>  Pratian Restaurant<h5 style="color: green;">Spicy,Hot,Crispy and Teasty dishes</h5></a>
-    <nav class="navbar">
-        <a class="active" href="#home">home</a>
-        <a href="#dishes">dishes</a>
-        <a href="https://www.zomato.com/restaurants">about</a>
-        <a href="https://www.musthavemenus.com/category/restaurant-menu.html">menu</a>
-        <a href="https://www.nytimes.com/column/restaurant-review">review</a>
-        <a href="https://www.zomato.com/bangalore/order-food-online">order</a>
-    </nav>
+    <!-- header section starts      -->
 
-    <div class="icons">
-        <i class="fas fa-bars" id="menu-bars"></i>
-        <i class="fas fa-search" id="search-icon"></i>
-        <a href="#" class="fas fa-heart"></a>
-        <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
-    </div>
+    <header>
+        <a href="#home" class="logo"><i class="fas fa-utensils"></i> Resto</a>
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
 
-</header>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
 
-<!-- header section ends-->
+    </header>
 
-<!-- search form  -->
+    <!-- header section ends-->
 
-<form action="" id="search-form">
-    <input type="search" placeholder="search here..." name="" id="search-box">
-    <label for="search-box" class="fas fa-search"></label>
-    <i class="fas fa-times" id="close"></i>
-</form>
+    <!-- search form  -->
 
-<!-- home section starts  -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
 
-<section class="home" id="home">
+    <!-- home section starts  -->
 
-    <div class="swiper-container home-slider">
+    <section class="home" id="home">
+
+        <div class="swiper-container home-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>spicy noodles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>fried chicken</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>hot pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-3.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- dishes section starts  -->
+
+    <section class="dishes" id="dishes">
+
+        <h3 class="sub-heading" style="text-align: center;"> our dishes </h3>
+        <h1 class="heading" style="text-align: center;"> popular dishes </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-1.png" alt="">
+                <h3>Burger</h3>
+                <div class="stars">
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹1500.99</span><br>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-2.png" alt="">
+                <h3>Fry Momose</h3>
+                <div class="stars">
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹1000.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-3.png" alt="">
+                <h3>Fry chicken</h3>
+                <div class="stars">
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹3050.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-4.png" alt="">
+                <h3>Hot Pizza</h3>
+                <div class="stars">
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹1550.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-5.png" alt="">
+                <h3>Cholocate cake</h3>
+                <div class="stars">
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹2050.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-6.png" alt="">
+                <h3>Crispy Chicken</h3>
+                <div class="stars">
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹2070.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- dishes section ends -->
+    <!-- About section starts  -->
+
+    <section class="about" id="about">
 
         <div class="swiper-wrapper wrapper">
-
-            <div class="swiper-slide slide">
-                <div class="content">
-                    <span>our special dish</span>
-                    <h3>spicy noodles</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-                <div class="image">
-                    <img src="images/home-img-1.png" alt="">
-                </div>
-            </div>
-
-            <div class="swiper-slide slide">
-                <div class="content">
-                    <span>our special dish</span>
-                    <h3>fried chicken</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-                <div class="image">
-                    <img src="images/home-img-2.png" alt="">
-                </div>
-            </div>
-
-            <div class="swiper-slide slide">
-                <div class="content">
-                    <span>our special dish</span>
-                    <h3>hot pizza</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-                <div class="image">
-                    <img src="images/home-img-3.png" alt="">
-                </div>
-            </div>
-
+        <div class="image">
+            <img  src="images/about-img.png" alt="" style="height: 600px;width: 800;">
+        </div>
+       
+        <div class="content">
+            <h1 class="heading" style="text-align: center;">Best Food In The Country  </h1>
+            
+            <h2>Lorm  ipsum  Dolor  Sit  Amet  Consectetur  Adipisicing  Elit ,Dolor ,Sequi  Corrupti  Corporis
+                Quaerat  Voluptatem  Ipsam  Neque  Labore  Modi  Autem  Saepe  Numquam  Quod  Reprehenderit  Rem?
+                Tempora  Aut  Soluta  Odio  Corporis  Nihil!</h2>
+                  <h2>Lorm  ipsum  Dolor  Sit  Amet , Consectetur  Adipisicing  Elit. Aperiam, Nemo. Sit  Porro 
+                     Illo  Eos  Cumque  Deleniti  Iste  Alias, Eum  Natus</h2>
+                     <!-- <img src="images/dish-6.png" alt=""> -->
+                     <a href="#" class="btn"style="background-color: rgb(223, 227, 227);color: black;"><i class="fa fa-shipping-fast" style="color: green;"></i> Free Delivery</a> 
+                     <a href="#" class="btn"style="background-color: rgb(223, 227, 227);color: black;"><i class="fa fa-dollar-sign" style="color: green;"></i> Easy Payments</a> 
+                     <br><a href="#" class="btn"style="text-align:center; background-color: rgb(223, 227, 227);color: black; width: 380px;"><i class="fa fa-headset" style="color: green;"></i> 24/7 Service</a> <br>            
+                     <a href="#" class="btn">Learn More</a>
+        </div>
         </div>
 
-        <div class="swiper-pagination"></div>
 
+
+    </section>
+    <!-- about end -->
+
+    <!-- menu section starts  -->
+
+    <section class="menu" id="menu">
+
+        <h3 class="sub-heading" style="text-align: center;"> our menu </h3>
+        <h1 class="heading" style="text-align: center;"> TODAY'S SPECIALITY </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#"style="margin-left:200px ;" class="fas fa-heart"></a>
+                <!-- <a href="#" class="fas fa-eye"></a> -->
+                <div class="image">
+                   <img src="images/menu-1.jpg" alt="">
+                   <div class="stars">
+                       <i style="color: green;" class="fas fa-star"></i>
+                       <i style="color: green;" class="fas fa-star"></i>
+                       <i style="color: green;" class="fas fa-star"></i>
+                       <i style="color: green;" class="fas fa-star"></i>
+                       <i style="color: green;" class="fas fa-star-half-alt"></i>
+                    </div>
+                   <h3>Delicious Food</h3>
+                   <p>Lorm ipsum Dolor Sit<br>Consectetur Adipisicing Elit,<br>Excepturi,Accusantium.</p>
+                   <a href="#" class="btn1">add to cart</a>
+                   <span>₹1500.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="#" style="margin-left:200px ;" class="fas fa-heart"></a>
+                <!-- <a href="#" class="fas fa-eye"></a> -->
+                <img src="images/menu-2.jpg" alt="">
+                <div class="stars">
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Delicious Food</h3>
+                <p>Lorm ipsum Dolor Sit<br>Consectetur Adipisicing Elit,<br>Excepturi,Accusantium.</p>
+                <a href="#" class="btn1">add to cart</a>
+                <span>₹1000.99</span>
+            </div>
+
+            <div class="box">
+                <a href="#" style="margin-left:200px ;" class="fas fa-heart"></a>
+                <!-- <a href="#" class="fas fa-eye"></a> -->
+                <img src="images/menu-3.jpg" alt="">
+                <div class="stars">
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Delicious Food</h3>
+                <p>Lorm ipsum Dolor Sit<br>Consectetur Adipisicing Elit,<br>Excepturi,Accusantium.</p>
+                <a href="#" class="btn1">add to cart</a>
+                <span>₹3050.99</span>
+            </div>
+
+            <div class="box">
+                <a href="#" style="margin-left:200px ;" class="fas fa-heart"></a>
+                <!-- <a href="#" class="fas fa-eye"></a> -->
+                <img src="images/menu-4.jpg" alt="">
+                <div class="stars">
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star"></i>
+                    <i style="color: green;" class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Delicious Food</h3>
+                <p>Lorm ipsum Dolor Sit<br>Consectetur Adipisicing Elit,<br>Excepturi,Accusantium.</p>
+                <a href="#"class="btn1">add to cart</a>
+                <span>₹1550.99</span>
+            </div>
+        </div>
+
+    </section>
+    
+
+
+    <!-- loader part  -->
+    <div class="loader-container">
+        <img src="images/loader.gif" alt="">
     </div>
 
-</section>
-
-<!-- home section ends -->
-
-<!-- dishes section starts  -->
-
-<section class="dishes" id="dishes">
-
-    <h3 class="sub-heading"> our dishes </h3>
-    <h1 class="heading" style="text-align: center;"> popular dishes </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
-            <img src="images/dish-1.png" alt="">
-            <h3>Burger</h3>
-            <div class="stars">
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star-half-alt"></i>
-            </div>
-            <span>₹1500.99</span><br>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
-            <img src="images/dish-2.png" alt="">
-            <h3>Fry Momose</h3>
-            <div class="stars">
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star-half-alt"></i>
-            </div>
-            <span>₹1000.99</span>         
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
-            <img src="images/dish-3.png" alt="">
-            <h3>Fry chicken</h3>
-            <div class="stars">
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star-half-alt"></i>
-            </div>
-            <span>₹3050.99</span>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
-            <img src="images/dish-4.png" alt="">
-            <h3>Hot Pizza</h3>
-            <div class="stars">
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star-half-alt"></i>
-            </div>
-            <span>₹1550.99</span>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
-            <img src="images/dish-5.png" alt="">
-            <h3>Cholocate cake</h3>
-            <div class="stars">
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star-half-alt"></i>
-            </div>
-            <span>₹2050.99</span>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
-            <img src="images/dish-6.png" alt="">
-            <h3>Crispy Chicken</h3>
-            <div class="stars">
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star"></i>
-                <i style="color: green;" class="fas fa-star-half-alt"></i>
-            </div>
-            <span>₹2070.99</span>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- dishes section ends -->
-
-
-<!-- loader part  -->
-<div class="loader-container">
-    <img src="images/loader.gif" alt="">
-</div>
 
 
 
@@ -239,11 +354,11 @@
 
 
 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
